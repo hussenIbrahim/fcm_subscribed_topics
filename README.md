@@ -10,26 +10,31 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
+ ## Features
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flutter package for getting subscribed topics in Firebase Cloud Messaging.
 
-## Features
+<!-- ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: List what your package can do. Maybe include images, gifs, or videos. -->
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+ 
+  FcmSubscribedTopcisServices subscribedTopcisServices =FcmSubscribedTopcisServices(jsonFile: );
+
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Passing the json file to the FcmSubscribedTopcisServices class.
 
 ```dart
-const like = 'sample';
+
+FcmSubscribedTopcisServices subscribedTopcisServices =FcmSubscribedTopcisServices(jsonFile:<Services Account Json> );
+
+
+final topcies = await subscribedTopcisServices.getSubscribeTopcis(<FCM_TOKEN>);
+
 ```
 
 ## Additional information
