@@ -14,9 +14,6 @@ and the Flutter guide for
 
 Flutter package for getting subscribed topics in Firebase Cloud Messaging.
 
-<!-- ## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos. -->
 
 ## Getting started
 
@@ -37,8 +34,3 @@ final topcies = await subscribedTopcisServices.getSubscribeTopcis(<FCM_TOKEN>);
 
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.

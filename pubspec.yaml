@@ -1,7 +1,7 @@
 name: fcm_subscribed_topics
 description: "A Flutter package to get fcm subscribed topics"
 version: 0.0.1
-homepage:
+homepage: https://github.com/hussenIbrahim/fcm_subscribed_topics
 
 environment:
   sdk: ^3.5.3
@@ -10,9 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http:
-  googleapis_auth:
-  convert:
+  http: ^1.2.2
+  googleapis_auth: ^1.6.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
